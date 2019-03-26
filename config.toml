@@ -1,0 +1,63 @@
+baseURL = "/" #"https://juancpulidos.github.io/"
+languageCode = "es-es"
+title = "JuancPulidos"
+theme = "ghostwriter"
+copyright = "juancpulidos"
+
+[Author]
+    name = "Juan Carlos Pulido S."
+    profile = "https://google.com/+XXX"
+
+[Params]
+    intro = true
+    headline = "Programación sin enredos"
+    description = "Cualquiera puede programar - es algo extraordinario!"
+    github = "https://github.com/alephart"
+    linkedin = "https://linkedin.com/in/juancpulidos/"
+    gplus = "https://google.com/+XXX"
+    twitter = "https://twitter.com/juancpulidosme"
+    stackoverflow = "https://stackoverflow.com/users/1842574/juan-carlos-pulido-suarez"
+    email = "hola@juancpulidos.com"
+    opengraph = true
+    shareTwitter = true
+    shareFacebook = true
+    shareGooglePlus = true
+    shareLinkedIn = false
+    dateFormat = "Mon, Jan 2, 2006"
+    highlightJsUrl = ""
+    highlightJsLocalUrl = ""
+    exponeaJsUrl = ""
+    exponeaTarget = ""
+    exponeaToken = ""
+    exponeaTrackVisits = false
+    readingTime = true
+    readingTimeText = "Tiempo estimado de lectura:"
+
+[Permalinks]
+    post = "/:year/:month/:day/:filename/"
+
+[[menu.main]]
+    name = "Blog"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Acerca de mi"
+    url = "/page/about/"
+    weight = 2
+
+[[menu.main]]
+    name = "Cursos"
+    url = "/courses/"
+    weight = 3
+
+[[menu.main]]
+    name = "Proyectos"
+    url = "/projects/"
+    weight = 4
+
+[[menu.main]]
+    name = "Contacto"
+    url = "/page/contact/"
+    weight = 5
+
